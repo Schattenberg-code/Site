@@ -11,7 +11,14 @@
             color: rgb(105, 238, 198);
         }
 
-        h1{
+        #texto_principal{
+            color:rgb(255, 255, 255);
+            text-align: center;
+            font-size: 90px;
+            margin-bottom: 480px;
+        }
+
+        #texto_noticia{
             color:rgb(255, 255, 255);
             text-align: center;
             font-size: 90px;
@@ -20,38 +27,53 @@
         body{
             background-color: black;
             color: rgb(255, 255, 255);
-            background-image: url(Assets/Aranha1.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        #Foto_Aranha{
-            height:380px;
-            width:610px;
-            border: 4px;
-            border-color: aliceblue;
-            border-style: solid;
+            background-image:         
+            url(Assets/Aranha6.jpg);
+            background-size: 100% auto;
+            background-repeat: repeat-y;
         }
 
         .Fotos_Aranha{
-            height:200px;
-            width:305px;
+            height:300px;
+            width:500px;
             border: 4px;
             border-color: aliceblue;
             border-style: solid;
         }
 
         h3{
+            text-align: justify;
             text-align: center;
+            max-width: 1200px;
+            margin: auto;
             font-size: 50px;
+            margin-bottom: 50px;
         }
+
+        a{
+            font-size: 20px;
+            color: aliceblue;
+        }
+        .texto{
+            text-align: center;
+            text-align: justify;
+            max-width: 700px;
+            margin: auto;
+            font-size: 20px;
+            border: 4px;
+            border-color: black;
+            border-style: solid;
+            background-color: rgba(0, 0, 0, 0.377);
+        }
+
+
     </style>
 
 <body>
 
     <header>
 
-        <h1>Site Do Homem-Aranha</h1>
+        <h1 id="texto_principal">Site Do Homem-Aranha</h1>
 
     </header>
 
@@ -68,31 +90,35 @@
         </div>
 
         <div>
-            <h1>Ultimas Noticias:</h1>
+            <h1 id="texto_noticia">Ultimas Noticias:</h1>
         </div>
 
         <div>
             <h3> Homem-Aranha é visto comprando pão em padaria local</h3>
 
-            <p style="text-align: center;">Hoje, dia 18 de Fevereiro de 2026, Nosso querido heroi Homem-Aranha foi avistado fazendo suas compras matinais em uma padaria do distrito de Midtown em Nova York. Moradores relatam simpatia vinda <br> do heroi pelo fato do Tal ter aceitado tirar fotos com todos os moradores locais que ao saberem da notícia foram correndo para vê-lo</p>
+            <p class="texto">Hoje, dia 18 de Fevereiro de 2026, Nosso querido heroi Homem-Aranha foi avistado fazendo suas compras matinais em uma padaria do distrito de Midtown em Nova York. Moradores relatam simpatia vinda do heroi pelo fato do Tal ter aceitado tirar fotos com todos os moradores locais que ao saberem da notícia foram correndo para vê-lo.</p>
+           <p style="text-align: center;"><a href="https://github.com/Schattenberg-code">Leia Mais...</a></p>
         </div>
 
         <div>
             <h3> Homem-Aranha derrota Electro pela ducentésima trigésima quarta vez no ano e deixa moradores preocupados com a segurança da cidade</h3>
 
-            <p style="text-align: center;"> Na noite do dia 15 de Janeiro de 2026 Homem-Aranha enfrentou e venceu o Electro mais uma vez, Após o ocorrido moradores relataram sua <br> desconfiança com a segurança civil da cidade, uma vez que esta foi a ducentésima trigésima quarta vez em que o <br> Homem-Aranha captura o vilão. Os policiais da Balsa(prisão de segurança máxima para vilões em Nova York) dizem não saber exatamente como o vilão escapa tão facilmente <br> "Não sabemos exatamente como esse vilão escapou" disse policial da balsa.</p>
+            <p class="texto"> Na noite do dia 15 de Janeiro de 2026 Homem-Aranha enfrentou e venceu o Electro mais uma vez, Após o ocorrido moradores relataram sua desconfiança com a segurança civil da cidade, uma vez que esta foi a ducentésima trigésima quarta vez em que o Homem-Aranha captura o vilão. Os policiais da Balsa(prisão de segurança máxima para vilões em Nova York) dizem não saber exatamente como o vilão escapa tão facilmente "Não sabemos exatamente como esse vilão escapou" disse policial da balsa.</p>
+            <p style="text-align: center;"><a href="https://github.com/Schattenberg-code">Leia Mais...</a></p>
         </div>
 
         <div>
             <h3> Homem-Aranha é ferido em luta contra Rino</h3>
 
-            <p style="text-align: center;"> Na tarde desse domingo Homem-Aranha foi levado as pressas para o hospital </p>
+            <p class="texto"> Na tarde deste domingo Homem-Aranha foi levado às pressas para o hospital Após uma batalha intensa envolvendo o recém desaparecido vilão Rino. o Homem-Aranha passa bem e está no Emory University Hospital Midtown e receberá alta essa noite. policiais estão fazendo buscas por todo o distrito de midtown, Queens e Upper West Side em busca do perigosíssimo vilão Nova-iorquino.</p>
+            <p style="text-align: center;"><a href="https://github.com/Schattenberg-code">Leia Mais...</a></p>
         </div>
 
         <div>
-            <h3> Homem-Aranha derrota Electro pela duzentésima trigésima quarta vez no ano e deixa moradores preocupados com a segurança da cidade</h3>
+            <h3> Homem-Aranha enfrenta dificuldades após volta às férias</h3>
 
-            <p style="text-align: center;"> Na noite do dia 15 de Janeiro de 2026 Homem-Aranha enfrentou e venceu o Electro mais uma vez, Após o ocorrido moradores relataram sua <br> desconfiança com a segurança civil da cidade, uma vez que esta foi a duzentésima trigésima quarta vez em que o <br> Homem-Aranha captura o vilão. Policiais da Balsa(prisão de segurança maxíma para vilões em Nova York) dizem não saber exatamente como o vilão escapou tão facilmente <br> "Não sabemos exatamente como esse vilão escapou" disse policial da balsa.</p>
+            <p class="texto">Dia 16 de janeiro de 2026 Homem-Aranha foi avistado tendo problemas ao se balançar em suas teias na cidade de Nova York, Moradores relatam ter visto o "Cabeça de Teia" descansando após tentar e falhar repetidas vezes subir em um prédio utilizando suas teias, moradores que estavam perto acham que o querido "teioso" está fora de forma. Torcemos para que não seja verdade, pois quem mais poderia nos proteger dos perigos da cidade?</p>
+            <p style="text-align: center;"><a href="https://github.com/Schattenberg-code">Leia Mais...</a></p>
         </div>
 
     </main>
